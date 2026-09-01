@@ -1,0 +1,41 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Checkpoints and models
+checkpoints/
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Data
+data/raw/*.jsonl
+data/processed/
+
+# Tokenizer
+tokenizer/genpy_tokenizer.json
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
